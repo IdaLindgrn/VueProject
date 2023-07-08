@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import setup from './components/EmployeeList.vue'; 
+import EmployeeList from './components/EmployeeList.vue'; 
 </script>
 
 <template>
   <div id="app">
-    <setup/>
+    <EmployeeList/>
   </div>
 </template>
 

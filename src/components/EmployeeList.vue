@@ -4,7 +4,6 @@ import axios, { AxiosResponse } from 'axios';
 import { ref, onMounted } from 'vue';
 import User from '../models/User.model'
 
-const setup = () => {
     const users = ref<User[]>([]);
 
     onMounted(() => {
@@ -16,13 +15,11 @@ const setup = () => {
         console.error(error);
     });
 });
-    return { users };
-};
 
-export { setup };
+export { users };
 
 </script>
 
 <template>
-    <div v-for="user in setup().users" :key="1">{{ user }}</div>  
+    <div v-for="user in users" :key="user.id">{{ user }}</div>  
 </template> 

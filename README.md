@@ -14,6 +14,6 @@ npm run dev
 
 ## Screenshots
 
-!![Screenshot](src/assets/screenshot.png)
+![Screenshot](src/assets/screenshot.png)
 
 ![Demo]()

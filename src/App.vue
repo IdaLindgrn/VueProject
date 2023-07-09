@@ -1,12 +1,16 @@
 <script setup lang="ts">
-import EmployeeList from './components/EmployeeList.vue'; 
+import NavBar from './components/NavBar.vue';
 </script>
 
 <template>
-  <div id="app">
-    <EmployeeList/>
-  </div>
+  <NavBar/>
+  <router-view/>
 </template>
 
-<style scoped>
+<style>
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  overflow: hidden;
+}
 </style>

@@ -1,9 +1,7 @@
 <script setup lang="ts">
-import NavBar from './components/NavBar.vue';
 </script>
 
 <template>
-  <NavBar/>
   <router-view/>
 </template>
 
@@ -11,6 +9,9 @@ import NavBar from './components/NavBar.vue';
 body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 0;
-  overflow: hidden;
 }
+a {
+    text-decoration: none;
+    color: #7b7bf4;
+  }
 </style>

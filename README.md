@@ -16,4 +16,4 @@ npm run dev
 
 ![Screenshot](src/assets/screenshot.png)
 
-##[Demo Link](https://idalindgrn.github.io/VendreKoduppgift/)
+## [Github Pages](https://idalindgrn.github.io/VendreKoduppgift/)

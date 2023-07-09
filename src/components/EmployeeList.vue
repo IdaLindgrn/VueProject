@@ -138,9 +138,4 @@ button:hover {
 span {
   padding: 0 2% 0 2%;
 }
-
-@media (max-width: 600px) {
- 
-
-}
-</style>../models/IUser
+</style>

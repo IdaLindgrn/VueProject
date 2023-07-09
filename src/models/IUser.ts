@@ -1,4 +1,4 @@
-interface User {
+interface IUser {
   id: number;
   email: string;
   first_name: string;
@@ -6,4 +6,4 @@ interface User {
   avatar: string;
 }
 
-export default User;
+export default IUser;

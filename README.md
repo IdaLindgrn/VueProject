@@ -12,7 +12,7 @@ npm install
 npm run dev
 ```
 
-## Screenshot
+## Screenshots
 
 ![Screenshot](src/assets/screenshot.png)
 
